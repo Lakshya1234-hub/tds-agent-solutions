@@ -1,7 +1,7 @@
 # tds-2026-05-roe — Autonomous Agent Solutions
 
 - **Portal:** https://exam.sanand.workers.dev/tds-2026-05-roe
-- **Last Updated:** 2026-11-15 12:28:35
+- **Last Updated:** 2026-11-15 12:36:05
 
 | Q# | Status | Model | Question | Solution Log |
 |---|---|---|---|---|
@@ -15,3 +15,5 @@ Why Did You Donate (Audio) (0.2 marks) | [Q03.md](./Q03.md) |
 Incident Atlas — Georegister and Route (5 m | [Q04.md](./Q04.md) |
 | Q5 | `HUMAN_NEEDED` | `ollama:tds-agent` | 5
 Unicode Doppelganger Ledger Forensics (5 ma | [Q05.md](./Q05.md) |
+| Q6 | `INCOMPLETE` | `ollama:tds-agent` | 6
+HTTP Cache Time Machine — Reconstruct the S | [Q06.md](./Q06.md) |
