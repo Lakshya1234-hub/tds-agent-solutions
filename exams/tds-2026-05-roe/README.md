@@ -1,7 +1,7 @@
 # tds-2026-05-roe — Autonomous Agent Solutions
 
 - **Portal:** https://exam.sanand.workers.dev/tds-2026-05-roe
-- **Last Updated:** 2026-11-15 13:00:24
+- **Last Updated:** 2026-11-15 13:01:52
 
 | Q# | Status | Model | Question | Solution Log |
 |---|---|---|---|---|
@@ -25,3 +25,5 @@ AI Opportunity Discovery (2 marks) | [Q08.md](./Q08.md) |
 The Unusual Useful Essay (0.2 marks) | [Q09.md](./Q09.md) |
 | Q10 | `INCOMPLETE` | `ollama:tds-agent` | 10
 Something You Did On Your Own Initiative ( | [Q10.md](./Q10.md) |
+| Q11 | `HUMAN_NEEDED` | `ollama:tds-agent` | 11
+Insights from NSS80 Telecom Data (2 marks) | [Q11.md](./Q11.md) |
