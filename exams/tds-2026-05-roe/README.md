@@ -1,7 +1,7 @@
 # tds-2026-05-roe — Autonomous Agent Solutions
 
 - **Portal:** https://exam.sanand.workers.dev/tds-2026-05-roe
-- **Last Updated:** 2026-11-15 12:25:08
+- **Last Updated:** 2026-11-15 12:27:06
 
 | Q# | Status | Model | Question | Solution Log |
 |---|---|---|---|---|
@@ -11,3 +11,5 @@ Street View OSINT: Where Is This? (5 marks) | [Q01.md](./Q01.md) |
 Donate Your Marks (0.2 marks) | [Q02.md](./Q02.md) |
 | Q3 | `INCOMPLETE` | `ollama:tds-agent` | 3
 Why Did You Donate (Audio) (0.2 marks) | [Q03.md](./Q03.md) |
+| Q4 | `INCOMPLETE` | `ollama:tds-agent` | 4
+Incident Atlas — Georegister and Route (5 m | [Q04.md](./Q04.md) |
