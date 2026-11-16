@@ -1,7 +1,10 @@
-import json
+import ollama
+import os
 
-with open('dataset.json', 'r') as file:
-    data = json.load(file)
+model_a_path = "/home/lakshyadeep/ollama/nomic-embed-text"
+model_b_path = "/home/lakshyadeep/ollama/mxbai-embed-large"
 
-sentences = data['sentences']
-queries = data['queries']
+if not os.path.exists(model_a_path):
+    ollama.pull("nomic-embed-text")
+if not os.path.exists(model_b_path):
+    ollama.pull("mxbai-embed-large")
