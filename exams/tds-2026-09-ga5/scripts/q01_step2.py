@@ -1,7 +1,6 @@
-import json
+import subprocess
+import shutil
 
-with open('/home/lakshyadeep/tds-agent/workspace/downloads/q1_knowledge_base.json', 'r') as file:
-    knowledge_base = json.load(file)
-
-passages = knowledge_base['passages']
-print(passages)
+print("Checking available tunneling tools:")
+for t in ["ngrok", "lt", "cloudflared"]:
+    print(t, shutil.which(t))
