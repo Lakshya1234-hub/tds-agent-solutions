@@ -1,4 +1,10 @@
-const q2 = document.querySelector('[data-question="q-ollama-faiss-rank-correlation-server"]') || document.body;
-// find all pre or code or details in question 2
-const preTags = Array.from(document.querySelectorAll('pre, code, details'));
-return preTags.map(p => p.innerText).filter(t => t.includes('Starter') || t.includes('faiss') || t.includes('spearman') || t.includes('nomic'));
+// Click the Make my video button
+const btn = document.querySelector('button[data-question="q-ollama-faiss-rank-correlation-server"]');
+// Wait, the question text changed in the portal but the ID was the same? 
+// Let me look for buttons to generate a video for the new "red ball" question.
+const videoBtn = Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Make my video'));
+if (videoBtn) {
+    videoBtn.click();
+    return "Clicked";
+}
+return "Button not found";

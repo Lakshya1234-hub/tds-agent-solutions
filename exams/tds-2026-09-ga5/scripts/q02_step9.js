@@ -1,6 +1,10 @@
-for (const d of document.querySelectorAll('details')) {
-  if (d.querySelector('summary')?.innerText.includes('Starter Python script')) {
-    return d.innerText;
-  }
+// Inspect page to find the video for the new question
+const videoElement = document.querySelector('video');
+if (videoElement) {
+    return {
+        src: videoElement.src,
+        id: videoElement.id
+    };
+} else {
+    return "No video found";
 }
-return "not found";
