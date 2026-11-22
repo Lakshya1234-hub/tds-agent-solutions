@@ -23,21 +23,21 @@
     "Q02": {
       "question": 2,
       "title": "2 Dual Embedding Alignment: Ollama, FAISS, and Rank Correlation (2 marks)",
-      "state": "queued",
-      "verify_attempts": 0,
+      "state": "blocked",
+      "verify_attempts": 1,
       "max_verify_attempts": 4,
-      "tool_calls": 0,
-      "model_used": "",
+      "tool_calls": 12,
+      "model_used": "gemini:gemini-3.5-flash-lite",
       "artifacts": [],
       "last_check": {
         "passed": false,
-        "feedback": "",
-        "answer": ""
+        "feedback": "the red ball (2 marks)\n\n100 balls bounce around inside a circle. At the start, your ball is red. It then turns grey like all the others, and the balls start colliding.\n\nWhen the balls stop, a number appears on each one. Tell us:\n\nthe number on your ball at the end, and\nyour ball's centre x,y in video frames (make your video to see them). Frames count from 0; pixels count from the top-left.\n\nYour video is unique to you.\n\nMake my video\nNumber; then x,y at each of the 3 frames\nCheck\nDiscuss\n Ask AI",
+        "answer": "[[39, 47, 38, 39, 38, 47, 0.777], [19, 6, 13, 6, 19, 13, 0.6984], [3, 14, 15, 3, 15, 14, 0.7612], [29, 28, 11, 28, 29, 10, 0.584], [37, 35, 24, 37, 24, 31, 0.6455], [1, 44, 43, 1, 49, 44, 0.8186], [33, 9, 16, 33, 4, 9, 0.8107], [30, 23, 8, 30, 17, 8, 0.6376], [27, 41, 45, 27, 41, 45, 0.74], [34, 48, 32, 34, 48, 32, 0.6318]]"
       },
-      "stop_reason": "",
-      "duration_sec": 0.0,
+      "stop_reason": "Reached max tool turns (12)",
+      "duration_sec": 52.50110387802124,
       "idempotency_key": "tds-2026-09-ga5-Q02",
-      "updated_at": "2026-11-22T14:33:08"
+      "updated_at": "2026-11-22T14:34:46"
     },
     "Q03": {
       "question": 3,
