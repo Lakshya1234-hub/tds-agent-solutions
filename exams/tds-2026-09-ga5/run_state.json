@@ -61,21 +61,21 @@
     "Q04": {
       "question": 4,
       "title": "4 Harness Engineering: Contextual Safety and Model Routing (2 marks)",
-      "state": "queued",
+      "state": "blocked",
       "verify_attempts": 0,
       "max_verify_attempts": 4,
-      "tool_calls": 0,
-      "model_used": "",
+      "tool_calls": 12,
+      "model_used": "gemini:gemini-3.5-flash-lite",
       "artifacts": [],
       "last_check": {
         "passed": false,
         "feedback": "",
         "answer": ""
       },
-      "stop_reason": "",
-      "duration_sec": 0.0,
+      "stop_reason": "Reached max tool turns (12)",
+      "duration_sec": 65.66937279701233,
       "idempotency_key": "tds-2026-09-ga5-Q04",
-      "updated_at": "2026-11-22T14:33:08"
+      "updated_at": "2026-11-22T14:36:36"
     }
   }
 }
